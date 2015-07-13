@@ -13,6 +13,9 @@
 		2588DDD61B536C0300DD1CDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2588DDD51B536C0300DD1CDE /* Images.xcassets */; };
 		2588DDD91B536C0300DD1CDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2588DDD71B536C0300DD1CDE /* LaunchScreen.xib */; };
 		2588DDE51B536C0400DD1CDE /* ProfileVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588DDE41B536C0400DD1CDE /* ProfileVCTests.swift */; };
+		2588DDEF1B53817900DD1CDE /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2588DDEE1B53817900DD1CDE /* View.xib */; };
+		2588DDF11B5381E400DD1CDE /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2588DDF01B5381E400DD1CDE /* MyView.swift */; };
+		2588DDF31B53833800DD1CDE /* IBM_Bluemix_logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2588DDF21B53833800DD1CDE /* IBM_Bluemix_logo.svg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		2588DDDE1B536C0400DD1CDE /* ProfileVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2588DDE31B536C0400DD1CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2588DDE41B536C0400DD1CDE /* ProfileVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVCTests.swift; sourceTree = "<group>"; };
+		2588DDEE1B53817900DD1CDE /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		2588DDF01B5381E400DD1CDE /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		2588DDF21B53833800DD1CDE /* IBM_Bluemix_logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IBM_Bluemix_logo.svg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,10 @@
 			children = (
 				2588DDCE1B536C0300DD1CDE /* AppDelegate.swift */,
 				2588DDD01B536C0300DD1CDE /* ViewController.swift */,
+				2588DDEE1B53817900DD1CDE /* View.xib */,
+				2588DDF01B5381E400DD1CDE /* MyView.swift */,
 				2588DDD21B536C0300DD1CDE /* Main.storyboard */,
+				2588DDF21B53833800DD1CDE /* IBM_Bluemix_logo.svg.png */,
 				2588DDD51B536C0300DD1CDE /* Images.xcassets */,
 				2588DDD71B536C0300DD1CDE /* LaunchScreen.xib */,
 				2588DDCC1B536C0300DD1CDE /* Supporting Files */,
@@ -192,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2588DDEF1B53817900DD1CDE /* View.xib in Resources */,
+				2588DDF31B53833800DD1CDE /* IBM_Bluemix_logo.svg.png in Resources */,
 				2588DDD41B536C0300DD1CDE /* Main.storyboard in Resources */,
 				2588DDD91B536C0300DD1CDE /* LaunchScreen.xib in Resources */,
 				2588DDD61B536C0300DD1CDE /* Images.xcassets in Resources */,
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2588DDF11B5381E400DD1CDE /* MyView.swift in Sources */,
 				2588DDD11B536C0300DD1CDE /* ViewController.swift in Sources */,
 				2588DDCF1B536C0300DD1CDE /* AppDelegate.swift in Sources */,
 			);
